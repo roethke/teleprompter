@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Compiled binary (produced by ./build.sh)
+/teleprompter
+
+# Build output
+/build/
+/.build/
+*.o
+
+# App bundle (not used, but ignore if ever produced)
+*.app
+
+# Xcode / SwiftPM cruft
+DerivedData/
+*.xcuserstate
+Package.resolved
